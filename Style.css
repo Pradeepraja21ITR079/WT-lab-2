@@ -1,0 +1,39 @@
+.navbar  {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-border{
+    border-bottom: 3px solid black ;
+    padding: 1;
+}
+
+.landing-img {
+    height: 90vh;
+    position: relative;
+}
+
+.landing-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.sub {
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+}
+.sub > .sub-para{
+    width: 450px;
+
+}
+
+
+.footer{
+    display: flex;
+}
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
